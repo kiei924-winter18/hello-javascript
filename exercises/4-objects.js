@@ -9,3 +9,15 @@
 
 // Currently it is 67 degrees and sunny. Tomorrow it will be 65 and Mostly Cloudy.
 // The next day it we will see Partly Cloudy skies, with a temperature of 70.
+
+let weatherData = {
+  current: {
+    temperature: 67,
+    conditions: "Sunny"
+  },
+  forecast: [
+    { temperature: 65, conditions: "Mostly Cloudy" },
+    { temperature: 70, conditions: "Partly Cloudy" }
+  ]
+}
+

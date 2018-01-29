@@ -25,6 +25,10 @@ console.log(theBestThings[0]); // the first element of the array
 // How about that array of arrays? Let's access the 3rd element of the second array:
 console.log(shoppingList[1][2]); // shaving cream
 
+// We add things to an array by using the push() function
+theBestThings.push("bacon");
+console.log(theBestThings);
+
 // There are all sorts of fun things you can do with arrays
 // Read the documentation!
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
