@@ -16,3 +16,17 @@
 // Math.floor(Math.random()*6+1)
 // Log output to the screen with console.log(), e.g.
 // console.log("hello");
+
+// Define variable for the first die
+let die1 = Math.floor(Math.random()*6+1);
+
+// Define variable for the second die
+let die2 = Math.floor(Math.random()*6+1);
+
+// Define variable for the total
+let total = die1 + die2;
+
+// Write everything out to the screen
+console.log(die1);
+console.log(die2);
+console.log("The total is: " + total);

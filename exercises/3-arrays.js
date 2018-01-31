@@ -15,3 +15,18 @@
 // Learn to read the documentation!
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 // concat(), sort() functions
+
+// Define a variable (an array) for Brian's shopping list
+let briansList = ["tacos", "bacon", "more tacos"];
+
+// Do the same for Ben's list
+let bensList = ["kale", "spinach", "some other vegetable"];
+
+// Create a combined (concatenated) list
+let combinedList = briansList.concat(bensList);
+
+// Create an alphabetically sorted list
+let sortedList = combinedList.sort();
+
+// Write the sorted list to the screen
+console.log(sortedList);
